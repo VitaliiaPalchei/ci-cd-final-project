@@ -1,42 +1,69 @@
-# TDD / BDD Final Project Template
+# CI/CD + TDD/BDD Final Project (by Vitaliia Palchei)
 
-This repository contains the template to be used for the Final Project for the Coursera course **Introduction to TDD/BDD**.
+This project was completed as part of my **DevOps and QA Automation training**. It demonstrates my ability to work with **Test-Driven Development (TDD)**, **Behavior-Driven Development (BDD)**, and **CI/CD pipelines** using modern tools like Docker, GitHub Actions, and Tekton.
 
-## Usage
+---
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+## What I Practiced and Contributed
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template. 
+✅ **Test Automation & QA**
+- Worked with predefined unit and route tests in `test_models.py` and `test_routes.py`
+- Practiced BDD by writing and updating Gherkin scenarios in `features/products.feature`
+- Edited step definitions in `load_steps.py` and `web_steps.py`
+- Triggered test execution through automated CI/CD workflows (not manual test runs)
 
-Name your repo: `tdd-bdd-final-project`.
+✅ **CI/CD Pipelines**
+- Set up and reviewed automated pipelines using GitHub Actions (`.github/workflows/workflow.yml`)
+- Worked with Tekton tasks to run tests and build steps (`.tekton/tasks.yml`)
+- Gained experience in integrating test steps into continuous delivery pipelines
 
-## Setup
+✅ **Environment & Deployment**
+- Containerized the application using Docker and managed app lifecycle with `Dockerfile`, `Makefile`, `Procfile`, and `.flaskenv`
+- Used command-line tools and pre-built scripts to install dependencies (`setup.sh`)
+- Configured runtime environments using `.env` templates and project settings
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+✅ **Challenges Overcome**
+- I overcame my initial fear of using the terminal and automation tools, and learned to confidently run and verify CI/CD pipelines and modify test-related files in a structured development environment
 
-```bash
-bash bin/setup.sh
-```
+---
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
+## Tools & Technologies Used
 
-```bash
-exit
-```
+- GitHub Actions, Tekton  
+- Docker, Makefile, Git  
+- BDD: Gherkin syntax (feature files + step definitions)  
+- Flask application structure (Python backend)
 
-## Tasks
+---
 
-In this project you will use good Test Driven Development (TDD) and Behavior Driven Development (BDD) techniques to write TDD test cases, BDD scenarios, and code, updating the following files:
+## Folder Overview
 
-```bash
-tests/test_models.py
-tests/test_routes.py
-service/routes.py
-features/products.feature
-features/steps/load_steps.py
-```
+| Folder/File | Description |
+|-------------|-------------|
+| `tests/` | Predefined tests executed through CI/CD pipelines |
+| `features/` | Gherkin feature files and step definitions |
+| `.github/workflows/` | GitHub Actions configuration for CI |
+| `.tekton/` | Tekton tasks for continuous delivery |
+| `service/` | Core application logic (routes, models, configs) |
+| `static/` | UI assets (CSS, JS, HTML) |
+| `Dockerfile`, `Makefile` | Automation for build and container run |
+| `.flaskenv`, `Procfile` | App configuration and startup setup |
 
-You will be given partial implementations in each of these files to get you started. Use those implementations as examples of the code you should write.
+---
+
+## Template & Credits
+
+This project is based on the [TDD/BDD Final Project Template](https://github.com/VitaliiaPalchei/xgcyk-tdd-bdd-final-project-template) originally created by [John Rofrano](https://github.com/jrofrano) at IBM.  
+Licensed under the Apache License 2.0.
+
+---
+
+## Maintained by
+
+**Vitaliia Palchei** – QA Engineer with experience in functional testing, accessibility, API validation, and CI/CD automation.  
+[LinkedIn](https://linkedin.com/in/vitaliia-palchei) | [GitHub](https://github.com/VitaliiaPalchei)
+
+---
 
 ## License
 
