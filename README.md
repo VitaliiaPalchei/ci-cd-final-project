@@ -51,13 +51,6 @@ This project was completed as part of my **DevOps and QA Automation training**. 
 
 ---
 
-## Template & Credits
-
-This project is based on the [TDD/BDD Final Project Template](https://github.com/VitaliiaPalchei/xgcyk-tdd-bdd-final-project-template) originally created by [John Rofrano](https://github.com/jrofrano) at IBM.  
-Licensed under the Apache License 2.0.
-
----
-
 ## Maintained by
 
 **Vitaliia Palchei** – QA Engineer with experience in functional testing, accessibility, API validation, and CI/CD automation.  
